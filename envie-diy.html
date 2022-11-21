@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/style/geral/reset.css">
+    <link rel="stylesheet" href="src/style/geral/style.css">
+    <link rel="stylesheet" href="src/style/geral/perfil.css">
+    <link rel="stylesheet" href="src/style/paginas/envie-diy.css">
+</head>
+<body>
+    <main>
+        <aside class="barra-lateral">
+            <div class="logo">
+                <img src="src/images/geral/riy-logo.png" alt="logo do site">
+            </div>
+            
+            <div class="menu"> 
+                <input type="text" placeholder="Pesquisar" class="busca">
+                <h2>Menu</h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li> 
+                        <li><a href="pq-reciclar.html">Por que reciclar?</a></li>
+                        <li>DIY
+                            <ul>
+                                <li class="subcategoria"><a href="#">- Categoria 1</a></li>
+                                <li class="subcategoria"><a href="#">- Categoria 2</a></li>
+                                <li class="subcategoria"><a href="#">- Categoria 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="envie-diy.html" class="ativa">Envie o seu DIY</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        
+        <section class="principal">
+            <header class="cabecalho">
+                <h1>Envie o seu D.I.Y</h1>
+                <img src="src/images/geral/perfil.png" alt="imagem de perfil" class="foto-usuario" onclick="mostrarMenu()">
+            </header>
+            
+            <div class="janela-perfil" id="menu-perfil">
+                <div class="opcoes-perfil">
+                    <div class="info-usuario">
+                        <img src="src/images/perfil/user.png" alt="foto do usuário">
+                        <h3>Maria da Silva</h3>
+                    </div>
+                    <hr>
+                    <a href="#" class="link-opcao-perfil">
+                        <img src="src/images/perfil/profile.png" alt="ícone de perfil">
+                        <p>Editar Perfil</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="link-opcao-perfil">
+                        <img src="src/images/perfil/setting.png" alt="ícone de configurações">
+                        <p>Configurações</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="link-opcao-perfil">
+                        <img src="src/images/perfil/logout.png" alt="ícone de sair">
+                        <p>Sair</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="conteudo">
+                <form action="#">
+                    <label for="nome">Nome:</label>
+                    <p>(Que irá aparecer na postagem)</p>
+                    <input type="text" name="nome" id="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="materiais">Lista de materiais:</label>
+                    <textarea name="materiais" id="materiais" cols="30" rows="10" required></textarea>
+
+                    <label for="passo-a-passo">Descreva o passo-a-passo do projeto:</label>
+                    <p>(Não se esqueça de enumerar os passos)</p>
+                    <textarea name="passo-a-passo" id="passo-a-passo" cols="30" rows="20" required></textarea>
+
+                    <h2>Compartilhe fotos do passo-a-passo/projeto finalizado:</h2>
+                    <label for="fotos" class="upload">Escolher arquivo</label>
+                    <input type="file" name="fotos" id="fotos">
+
+                    <input type="submit" value="ENVIAR">
+                </form>
+
+                <footer class="contato">
+                    <p>Para dúvidas e sugestões contate os desenvolvedores:</p>
+                    <p>Eduardo Leal - <a href="mailto: lourencoeduardo078@gmail.com">lourencoeduardo078@gmail.com</a></p>
+                    <p>Renata Pigatto - <a href="mailto: renatapigatto@gmail.com">renatapigatto@gmail.com</a></p>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/js/geral/index.js"></script>
+    
+</body>
+</html>

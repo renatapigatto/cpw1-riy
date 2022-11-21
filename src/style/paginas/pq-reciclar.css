@@ -1,0 +1,29 @@
+article{
+    margin-right: 30px;
+}
+
+.artigo1{
+    padding-bottom: 30px;
+    border-bottom: #107E57 2px solid;
+}
+
+.artigo2{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+article p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.conteudo img{
+    max-width: 200px;
+    float: right;
+    margin: 0px 0px 0px 20px;    
+}
+
+.artigo1 img{
+    max-width: 300px;
+}

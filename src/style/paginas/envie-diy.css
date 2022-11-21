@@ -1,0 +1,76 @@
+.conteudo form{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label, h2{
+    margin: 30px 0px 7px 0px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+form input[type="text"], input[type="email"]{
+    width: 30%;
+    height: 30px;
+}
+
+form textarea{
+    width: 75%;
+}
+
+form p{
+    margin-top: 0px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label.upload {
+    padding: 10px 5px;
+    width: 200px;
+    background-color: #16B67D;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px 5px;
+    width: 150px;
+    background-color: #107E57;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 65%;  
+}
+
+.contato{
+    border-top: 1px solid #107E57;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 75%;
+}
+
+.contato p:first-child{
+    font-weight: bold;
+}
+
+.contato a{
+    color: #000000;
+}
+
+.contato a:hover{
+    color: #107E57;
+}
