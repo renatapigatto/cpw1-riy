@@ -1,0 +1,26 @@
+.artigo1{
+    margin: 30px 100px 0px 50px;
+    padding-bottom: 30px;
+    border-bottom: #107E57 2px solid;
+}
+
+.artigo2{
+    padding-top: 30px;
+    margin: 0px 100px 50px 50px;
+}
+
+article p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+img{
+    max-width: 200px;
+    float: right;
+    margin: 0px 0px 10px 20px;    
+}
+
+.artigo1 img{
+    max-width: 300px;
+}

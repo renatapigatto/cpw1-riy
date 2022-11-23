@@ -1,0 +1,32 @@
+<style>
+    @import url(/src/style/paginas/envie-diy.css);
+</style>
+
+<form action="#">
+    <label for="nome">Nome:</label>
+    <p>(Que irá aparecer na postagem)</p>
+    <input type="text" name="nome" id="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="materiais">Lista de materiais:</label>
+    <textarea name="materiais" id="materiais" cols="30" rows="10" required></textarea>
+
+    <label for="passo-a-passo">Descreva o passo-a-passo do projeto:</label>
+    <p>(Não se esqueça de enumerar os passos)</p>
+    <textarea name="passo-a-passo" id="passo-a-passo" cols="30" rows="20" required></textarea>
+
+    <h2>Compartilhe fotos do passo-a-passo/projeto finalizado:</h2>
+    <label for="fotos" class="upload">Escolher arquivo</label>
+    <input type="file" name="fotos" id="fotos">
+
+    <input type="submit" value="ENVIAR">
+</form>
+
+<footer class="contato">
+    <p>Para dúvidas e sugestões contate os desenvolvedores:</p>
+    <p>Eduardo Leal - <a href="mailto: lourencoeduardo078@gmail.com">lourencoeduardo078@gmail.com</a></p>
+    <p>Renata Pigatto - <a href="mailto: renatapigatto@gmail.com">renatapigatto@gmail.com</a></p>
+</footer>
+
